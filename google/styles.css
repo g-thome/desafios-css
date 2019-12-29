@@ -1,0 +1,49 @@
+.superior-direito {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.superior-direito a, .superior-direito button {
+    margin-left: 10px;
+}
+
+.esquerda {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-sem-frescura {
+    color: black;
+    text-decoration: none;
+}
+
+.lista-sem-frescura {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+.login {
+    font-weight: bold;
+    background-color: #4285f4;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 0.5em 1em;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
